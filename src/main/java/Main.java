@@ -1,7 +1,7 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         BonusService service = new BonusService();
-        int bonus = service.calcBonus(3500, true);
-        Sustem.out.println(bonus);
+        long bonus = service.calculate(3500, true);
+        System.out.println(bonus);
     }
 }
